@@ -1,26 +1,47 @@
-html, body {
-    background: #ff5000;
-    height: 100%;
-    width: 100%;
-}
+/*!
+ * Copyright (C) 2013 Ingredients, Inc. All rights reserved.
+ * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+ *
+ * IMPORTANT NOTE: This file is licensed only for use in providing the Placemat
+ * service, or any part thereof, and is subject to the Placemat Terms and
+ * Conditions. You may not port this file to another platform without
+ * written consent from Ingredients, Inc.
+ *
+ */
 
-html {
-    display: table;
-}
-
+html,
 body {
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.container {
-    max-width: 21em;
-    margin: 0 auto;
+    color: #fff;
+    background: #ff5000;
+    font-family: Helvetica, sans-serif;
+    height: 100%;
     text-align: center;
 }
 
 h1 {
-    color: #fff;
-    font-family: Helvetica, sans-serif;
+    font-size: 55px;
     font-weight: lighter;
+}
+
+p {
+    font-size: 13px;
+    margin: 0 auto;
+}
+
+.container {
+    display: table;
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -55px;
+    width: 100%;
+}
+
+.content {
+    display: table-cell;
+    padding: 0 0 55px;
+    vertical-align: middle;
+}
+
+footer {
+    height: 55px;
 }
